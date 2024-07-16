@@ -1,0 +1,24 @@
+# Nuxt dev/build outputs
+focostv-frontend/.output
+focostv-frontend/.data
+focostv-frontend/.nuxt
+focostv-frontend/.nitro
+focostv-frontend/.cache
+focostv-frontend/dist
+
+# Node dependencies
+focostv-frontend/node_modules
+
+# Logs
+logs
+*.log
+
+# Misc
+.DS_Store
+.fleet
+.idea
+
+# Local env files
+focostv-frontend/.env
+focostv-frontend/.env.*
+!focostv-frontend/.env.example

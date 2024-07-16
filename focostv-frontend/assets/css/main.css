@@ -1,0 +1,122 @@
+.body {
+    font-size: 1rem;
+}
+
+/*********HEADER STYLES MBF***********************/
+.focos-site-header {
+    background-color: #f8f8f7;
+    border-bottom: 0.063rem solid #cdcdcd;
+    padding: 1rem 1.25rem;
+}
+
+.focos-site-header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.focos-site-header-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.focos-site-header-icon {
+    font-size: 1.5rem;
+}
+
+/********************NAVIGATION STYLES MBF****************/
+.focos-site-navigation {
+    margin: 1.5rem 1rem;
+    font-family: "Inter", sans-serif;
+    overflow-x: auto;
+}
+
+.focos-site-navigation-menu {
+    list-style: none;
+    display: flex;
+    white-space: nowrap;
+    padding: 0 1rem;
+}
+
+.focos-site-navigation-menu-item {
+    display: inline-block;
+    /* Asegurarse de que los elementos sean en línea */
+}
+
+.focos-site-navigation-item {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    margin-right: 1rem;
+    padding-bottom: 0.25rem;
+    position: relative;
+}
+
+.focos-site-navigation-item::after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 0.25rem;
+    background-color: transparent;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transition: background-color 0.3s;
+}
+
+.focos-site-navigation-item:hover::after {
+    background-color: #ffbe02;
+}
+
+.focos-site-navigation-item:hover {
+    color: #636363;
+}
+
+/*****************FOOTER STYLES MBF*****************/
+.focos-site-footer {
+    font-family: "Inter", sans-serif;
+    background-color: black;
+    padding-top: 2rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+}
+
+.focos-site-footer-menu {
+    margin-top: 2rem;
+    border-bottom: 1px solid white;
+}
+
+.footer-menu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.footer-menu-item {
+    margin-bottom: 1.5rem;
+}
+
+.menu-link {
+    color: #D9D9D9;
+    text-decoration: none;
+}
+
+.primary-menu-link {
+    font-size: 1.75rem;
+    font-weight: bold;
+}
+
+.secondary-menu-link {
+    font-size: 1.125rem;
+}
+
+.focos-site-footer-copyright {
+    margin-top: 2rem;
+    padding-bottom: 3rem;
+}
+
+.copyright-text {
+    color: #D9D9D9;
+    font-size: 0.875rem;
+}
