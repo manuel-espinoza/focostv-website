@@ -1,0 +1,5 @@
+- Crear backup:
+	docker exec -t wpfocosdev-db-1 mysqldump -u exampleuser -pexamplepass exampledb > backup.sql
+
+- Restaurar backup:
+	docker exec -i wpfocosdev-db-1 mysql -u exampleuser -pexamplepass exampledb < backup.sql
